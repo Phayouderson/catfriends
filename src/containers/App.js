@@ -18,7 +18,7 @@ class App extends Component {
       method: 'GET',
       redirect: 'follow',
       headers: {
-        'x-api-key': ' live_dc7cJ5G8pbEDpilGQP6qwB2tuIvDulwR6VxXpSQgawgHVKSj74ge4bSiB6v7ZGva'
+         'x-api-key': ' live_dc7cJ5G8pbEDpilGQP6qwB2tuIvDulwR6VxXpSQgawgHVKSj74ge4bSiB6v7ZGva'
 
 
       }
