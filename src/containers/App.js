@@ -23,7 +23,7 @@ class App extends Component {
 
       }
     };
-    fetch("https://api.thecatapi.com/v1/images/search?limit=100&has_breeds=true", requestOptions)
+    fetch("https://api.thecatapi.com/v1/images/search?limit=20&has_breeds=true", requestOptions)
       .then(response => response.json())
       .then(data => {
          const transformedCats = data.map(cat => ({
